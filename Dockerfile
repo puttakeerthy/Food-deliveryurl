@@ -13,7 +13,7 @@ EXPOSE 8080
 # Optional: Health check (optional for Render but good practice)
 HEALTHCHECK --interval=30s --timeout=10s \
   CMD curl --fail http://localhost:8080/ || exit 1
- Use official Tomcat base image
+ #Use official Tomcat base image
 # FROM tomcat:9.0
 
 # # Remove default apps (optional)
